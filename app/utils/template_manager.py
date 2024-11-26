@@ -1,4 +1,4 @@
-from myenv.Lib import markdown2 
+import markdown2 
 from pathlib import Path
 
 class TemplateManager:
