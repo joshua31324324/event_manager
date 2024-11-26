@@ -4,7 +4,7 @@ from starlette.responses import JSONResponse
 from app.database import Database
 from app.dependencies import get_settings
 from app.routers import user_routes
-from utils.api_description import getDescription
+from app.utils.api_description import getDescription
 app = FastAPI(
     title="User Management",
     description=getDescription(),
